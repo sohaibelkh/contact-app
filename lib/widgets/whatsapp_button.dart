@@ -24,8 +24,8 @@ class WhatsappButton extends StatelessWidget {
         launchWhatsapp(number: await getWtspNum());
       },
       child: Container(
-        width: MediaQuery.of(context).size.width * 0.7,
-        height: MediaQuery.of(context).size.height * 0.07,
+        width: MediaQuery.of(context).size.width * 0.61,
+        height: MediaQuery.of(context).size.height * 0.061,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15),
           color: greenColor,
@@ -36,18 +36,16 @@ class WhatsappButton extends StatelessWidget {
               padding: EdgeInsets.only(left: 17),
               child: Icon(
                 Icons.whatsapp,
-                size: 40,
+                size: 30,
                 color: Colors.white,
               ),
             ),
-            const SizedBox(
-              width: 15,
-            ),
+            const SizedBox(width: 8),
             Text(
               'Allez Sur Whatsapp',
               style: GoogleFonts.nunito(
                 fontWeight: FontWeight.w500,
-                fontSize: 18.sp,
+                fontSize: 15.sp,
                 color: Colors.white,
               ),
             ),

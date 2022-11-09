@@ -1,4 +1,4 @@
-package com.example.contactapp
+package dev.daze.contactapp
 
 import io.flutter.embedding.android.FlutterActivity
 
